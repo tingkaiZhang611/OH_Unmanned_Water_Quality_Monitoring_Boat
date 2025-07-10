@@ -1,0 +1,9 @@
+export const add: (a: number, b: number) => number;
+export const left: (isON:number,isZhengZhuan:number) => number;
+export const right: (isON:number,isZhengZhuan:number) => number;
+export const getOnnDou: (isON:number,isZhengZhuan:number) => number;
+export const open: (port: string, baudrate: number) => number;
+export const write: (baga:string | Array<string>) => number;
+export const read: () => Array<number>;
+export const close: () => number;
+// export const shellExec: (cmdString: string) => number;
